@@ -15,7 +15,7 @@ const CONFIG = {
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        bears: ['🧸', '🐻','🌸​']                  // Cute bear emojis
     },
 
     // Questions and answers
@@ -23,9 +23,9 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
+            yesBtn: "Maybe Yeah?",                                             // Text for "Yes" button
             noBtn: "Ewww No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I don't like you, I love you silly! ❤️"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -43,14 +43,14 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "Okay Stop Lying now 🙄​🙄​🙄​",  // Shows when they go past 5000%
-        high: "I love you more! 🚀💝",              // Shows when they go past 1000%
+        high: "I love you more sargam! 🚀💝",              // Shows when they go past 1000%
         normal: "And beyond! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "SO CUTE I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Im sorry for being a little shit, now a big warm hug and let me eat you!",
+        message: "Im sorry for being a little shit, now let me give you a big warm hug and eat you up!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
